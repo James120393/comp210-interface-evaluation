@@ -390,7 +390,7 @@ fieldset {
 
 /*
  * 1. Corrects color not being inherited in IE6/7/8/9
- * 2. Corrects text not wrapping in FF3 
+ * 2. Corrects text not wrapping in FF3
  * 3. Corrects alignment displayed oddly in IE6/7
  */
 legend {
@@ -848,4 +848,25 @@ section #title .credits.right {
   nav {
     display: none;
   }
+}
+#splash {
+padding: 40px;
+position: relative;
+background: #FFF;
+margin: 20px 0 0 0;
+height: 300px;
+width: 1100px;
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+}
+
+.post {
+
+margin-left: auto ;
+margin-right: auto ;
+}
+
+p {
+margin-bottom: 1.75em;
+margin-left: auto ;
+margin-right: auto ;
 }
